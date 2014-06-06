@@ -21,6 +21,7 @@
 		5285C19D1941CEAB0073DA59 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5285C17F1941CEAA0073DA59 /* UIKit.framework */; };
 		5285C1A51941CEAB0073DA59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5285C1A31941CEAB0073DA59 /* InfoPlist.strings */; };
 		5285C1A71941CEAB0073DA59 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285C1A61941CEAB0073DA59 /* Git_TestTests.m */; };
+		5285C1B21941D2020073DA59 /* CGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5285C1B11941D2020073DA59 /* CGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		5285C1A21941CEAB0073DA59 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		5285C1A41941CEAB0073DA59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5285C1A61941CEAB0073DA59 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		5285C1B01941D2020073DA59 /* CGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGTest.h; sourceTree = "<group>"; };
+		5285C1B11941D2020073DA59 /* CGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		5285C16F1941CEAA0073DA59 = {
 			isa = PBXGroup;
 			children = (
+				5285C1B01941D2020073DA59 /* CGTest.h */,
+				5285C1B11941D2020073DA59 /* CGTest.m */,
 				5285C1811941CEAA0073DA59 /* Git Test */,
 				5285C1A01941CEAB0073DA59 /* Git TestTests */,
 				5285C17A1941CEAA0073DA59 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5285C18C1941CEAB0073DA59 /* CGAppDelegate.m in Sources */,
+				5285C1B21941D2020073DA59 /* CGTest.m in Sources */,
 				5285C1881941CEAB0073DA59 /* main.m in Sources */,
 				5285C1921941CEAB0073DA59 /* CGViewController.m in Sources */,
 			);
